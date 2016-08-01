@@ -1,7 +1,7 @@
 {
-  "name": "redux-todos-example",
+  "name": "ez-vote",
   "version": "0.0.0",
-  "description": "Redux Todos example",
+  "description": "ez-vote react redux",
   "scripts": {
     "start": "node server.js",
     "test": "cross-env NODE_ENV=test mocha --recursive --compilers js:babel-register --require ./test/setup.js",
@@ -9,17 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/redux.git"
+    "url": "https://github.com/hobarthu/ez-vote.git"
   },
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/reactjs/redux/issues"
-  },
-  "homepage": "http://redux.js.org",
   "dependencies": {
     "babel-polyfill": "^6.3.14",
-    "less": "^2.7.1",
-    "lodash": "^4.14.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-redux": "^4.1.2",
